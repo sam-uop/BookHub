@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <TextView
+        android:id="@+id/txtProfileFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_fragment"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:drawableStart="@drawable/ic_name"
+        android:text="Samrudh Uchil"
+        android:layout_below="@id/txtProfileFragment"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="samrudhuchil@gmail.com"
+        android:layout_marginRight="15dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtMobile"
+        android:text="7021406017"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMobile"
+        android:text="Rasayani"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:drawableStart="@drawable/ic_address"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>
